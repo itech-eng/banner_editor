@@ -7,8 +7,8 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/qor/admin"
-	"github.com/qor/responder"
+	"github.com/itech-eng/admin"
+	"github.com/itech-eng/responder"
 )
 
 // New handle new setting page

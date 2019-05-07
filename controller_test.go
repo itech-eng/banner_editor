@@ -13,13 +13,13 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/banner_editor/test/config/bindatafs"
-	"github.com/qor/media"
-	"github.com/qor/media/media_library"
-	"github.com/qor/qor"
-	"github.com/qor/qor/test/utils"
-	qor_utils "github.com/qor/qor/utils"
+	"github.com/itech-eng/admin"
+	"github.com/itech-eng/banner_editor/test/config/bindatafs"
+	"github.com/itech-eng/media"
+	"github.com/itech-eng/media/media_library"
+	"github.com/itech-eng/qor"
+	"github.com/itech-eng/qor/test/utils"
+	qor_utils "github.com/itech-eng/qor/utils"
 )
 
 var (
@@ -60,7 +60,7 @@ func init() {
 	buttonRes := Admin.NewResource(&buttonSetting{})
 	buttonRes.Meta(&admin.Meta{Name: "Text"})
 	buttonRes.Meta(&admin.Meta{Name: "Link"})
-	RegisterViewPath("github.com/qor/banner_editor/test/views")
+	RegisterViewPath("github.com/itech-eng/banner_editor/test/views")
 
 	RegisterElement(&Element{
 		Name:     "Sub Header",
